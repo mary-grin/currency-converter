@@ -1,0 +1,11 @@
+<div class="header">
+  <div class="_container">
+    <div class="header-items">
+      <span class="logo">CurrencyConverter</span>
+      <span class="exchange-rate" *ngIf="currency">
+        <span>EUR: {{currency.eurUan.rateBuy}}/{{currency.eurUan.rateSell}}</span>
+        <span>USD: {{currency.usdUan.rateBuy}}/{{currency.usdUan.rateSell}}</span>
+      </span>
+    </div>
+  </div>
+</div>

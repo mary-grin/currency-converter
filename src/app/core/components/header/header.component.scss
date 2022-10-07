@@ -1,0 +1,19 @@
+.header {
+  background-color: #498eb9;
+}
+.header-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  .logo {
+    font-size: 32px;
+    color: #fff;
+  }
+  .exchange-rate {
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+    color: #fff;
+  }
+}
