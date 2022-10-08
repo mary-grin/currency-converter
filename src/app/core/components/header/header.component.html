@@ -3,8 +3,8 @@
     <div class="header-items">
       <span class="logo">CurrencyConverter</span>
       <span class="exchange-rate" *ngIf="currency">
-        <span>EUR: {{currency.eurUan.rateBuy}}/{{currency.eurUan.rateSell}}</span>
-        <span>USD: {{currency.usdUan.rateBuy}}/{{currency.usdUan.rateSell}}</span>
+        <span>EUR: {{currency['EUR to UAN']}}</span>
+        <span>USD: {{currency['USD to UAN']}}</span>
       </span>
     </div>
   </div>
