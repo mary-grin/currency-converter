@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  padding: 20px 0;
   .logo {
     font-size: 32px;
     color: #fff;
@@ -15,5 +15,12 @@
     gap: 20px;
     font-size: 24px;
     color: #fff;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-items {
+    flex-direction: column;
+    gap: 10px;
   }
 }
